@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Westlake Tree Experts</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo">W</div>
+      <div>
+        <h1>Westlake Tree Experts</h1>
+        <p>(610) 291-1176 · bwestlake@business.com</p>
+        <p>30 Ivy Ln, Douglassville, PA 19464</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button data-page="home" class="active">Home</button>
+    <button data-page="customers">Customers</button>
+    <button data-page="invoices">Invoices</button>
+    <button data-page="estimates">Estimates</button>
+    <button data-page="jobs">Jobs</button>
+    <button data-page="reports">Reports</button>
+  </nav>
+
+  <main id="app"></main>
+
+  <template id="empty-template">
+    <div class="empty">No records yet.</div>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
